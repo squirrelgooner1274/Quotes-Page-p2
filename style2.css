@@ -1,0 +1,89 @@
+body {
+    background-color:rgb(58, 58, 58);
+    text-align: center;
+    margin:auto;
+    width:90%
+}
+
+
+.containerOne{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.leftquote{
+    order: 1;
+    align-self: flex-start;
+    background-color:rgb(0, 0, 0);
+    color:rgb(0, 0, 0);
+}
+
+.leftquote:hover{
+    background-color:rgb(0, 0, 0);
+    color:rgb(202, 194, 194);
+}
+
+.centerquote{
+    order: 2;
+    align-self: flex-end;
+    background-color:rgb(255, 255, 255);
+    color:rgb(251, 251, 255);
+}
+
+.centerquote:hover{
+    background-color:rgb(255, 255, 255);
+    color:black;
+}
+
+.rightquote{
+    order: 3;
+    align-self: flex-start;
+    background-color:rgb(39, 39, 39);
+    color:rgb(39, 39, 39);
+}
+
+.rightquote:hover{
+    background-color:rgb(39, 39, 39);
+    color:rgb(137, 76, 76);
+}
+
+.lastquote{
+    order: 4;
+    align-self: flex-end;
+    background-color: bisque;
+    color: bisque;
+}
+
+.lastquote:hover{
+    background-color:bisque(255, 157, 0);
+    color: rgb(81, 29, 29);
+}
+
+.leftquote {
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.leftquote:hover {
+    box-shadow: 0 0 15px 5px rgba(251, 255, 6, 0.8); /* Glowing effect */
+}
+.rightquote {
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.rightquote:hover {
+    box-shadow: 0 0 15px 5px rgba(251, 255, 6, 0.8); /* Glowing effect */
+}
+.centerquote {
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.centerquote:hover {
+    box-shadow: 0 0 15px 5px rgba(251, 255, 6, 0.8); /* Glowing effect */
+}.leftquote {
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.leftquote:hover {
+    box-shadow: 0 0 15px 5px rgba(251, 255, 6, 0.8); /* Glowing effect */
+}
